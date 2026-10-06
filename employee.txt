@@ -1,4 +1,6 @@
-DROP TABLE hr.employee;
+go
+CREATE SCHEMA hr;
+go
 
 CREATE TABLE hr.employee(
 	employee_id INT PRIMARY KEY,
