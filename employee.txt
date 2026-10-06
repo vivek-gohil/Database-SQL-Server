@@ -1,0 +1,21 @@
+DROP TABLE hr.employee;
+
+CREATE TABLE hr.employee(
+	employee_id INT PRIMARY KEY,
+	name VARCHAR(50),
+	salary decimal,
+	reporting_manager_id INT
+);
+
+insert into hr.employee values(1,'Virat',1000,NULL);
+insert into hr.employee values(2,'Rohit',1000,1);
+insert into hr.employee values(3,'Rahul',900,1);
+insert into hr.employee values(4,'Dinesh',800,2);
+insert into hr.employee values(5,'Kuldeep',900,2);
+
+-- Self Join
+-- Rohit Reports to Virat
+-- Rahul Reports to Virat
+-- Dinesh Reports to Rohit
+-- Kuldeep Reports to Rohit
+
