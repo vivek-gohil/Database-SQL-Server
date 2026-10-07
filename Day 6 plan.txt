@@ -1,0 +1,7 @@
+1. Notes - PPT
+2. Nested Query | Subquery
+3. Error Debug Basics
+4. Revision
+5. Database - sample
+6. wesite references
+
